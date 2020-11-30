@@ -6,10 +6,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @autor Leon Hunter on 8/26/18.
+ * @author Leon Hunter on 8/26/18.
  */
 public class TestAddition {
-    private static volatile MathUtilities mathUtils = new MathUtilities();
+    private static final MathUtilities mathUtils = new MathUtilities();
 
     @Test
     public void testIntegerAddition() {

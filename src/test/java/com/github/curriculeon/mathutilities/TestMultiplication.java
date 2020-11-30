@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestMultiplication {
 
-    private static volatile MathUtilities mathUtils = new MathUtilities();
+    private static final MathUtilities mathUtils = new MathUtilities();
 
 
     @Test
